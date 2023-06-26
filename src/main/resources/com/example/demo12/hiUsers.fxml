@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo12.HiUsers">
+   <children>
+      <TableView layoutX="14.0" layoutY="186.0" prefHeight="200.0" prefWidth="577.0">
+        <columns>
+          <TableColumn prefWidth="118.4000244140625" text="C1" />
+          <TableColumn prefWidth="108.0" text="C2" />
+            <TableColumn prefWidth="122.4000244140625" text="Column X" />
+            <TableColumn prefWidth="120.00006103515625" text="Column X" />
+            <TableColumn prefWidth="105.0" text="Column X" />
+        </columns>
+      </TableView>
+      <Text layoutX="55.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="55.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hi">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="198.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to AMONIC Airlines !">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Label fx:id="name" layoutX="87.0" layoutY="64.0" prefHeight="17.0" prefWidth="103.0" />
+   </children>
+</Pane>
